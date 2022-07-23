@@ -1,4 +1,3 @@
-let hole = document.getElementsByClassName('hole');
 let dead = document.getElementById('dead');
 let lost = document.getElementById('lost');
 
