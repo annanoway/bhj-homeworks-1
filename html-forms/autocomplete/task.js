@@ -72,7 +72,7 @@ class Autocomplete {
 
     Array.from(this.input.options).map(e => {
       if (e.text.includes(text)) {
-        arr.push({text: elem.text, value: text.value})
+        arr.push({text: e.text, value: text.value})
       }
     });
     return arr;
